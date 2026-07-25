@@ -2221,3 +2221,128 @@
 .temporary-button:hover {
     background: #0f6fc4;
 }
+
+/* =========================================
+   HOME - MOBILE
+========================================= */
+
+@media (max-width: 650px) {
+
+    .header {
+        height: auto;
+        min-height: 0;
+        padding: 18px 20px;
+        flex-direction: column;
+        gap: 18px;
+    }
+
+    .logo {
+        width: 180px;
+    }
+
+    .menu {
+        width: 100%;
+        left: 0;
+        top: 0;
+        gap: 16px 22px;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .menu a {
+        font-size: 13px;
+        padding-bottom: 0;
+    }
+
+    .menu a.active {
+        padding-bottom: 4px;
+    }
+
+    .quote-top {
+        width: 100%;
+        text-align: center;
+        margin-top: 6px;
+    }
+
+    .hero {
+        flex-direction: column;
+        padding: 35px 20px;
+        gap: 25px;
+    }
+
+    .hero-image,
+    .hero-box {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .hero-image img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .hero-box {
+        padding: 28px 24px;
+    }
+
+    .hero-box h1 {
+        font-size: 36px;
+        line-height: 1.05;
+    }
+
+    .hero-box p {
+        font-size: 16px;
+        line-height: 1.6;
+    }
+
+    .video-section {
+        padding: 35px 20px;
+    }
+
+    .video-content {
+        width: 100%;
+        max-width: 100%;
+    }
+
+    .video-content h2 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .video-content video {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
+
+    .cards {
+        flex-direction: column;
+        padding: 25px 20px 45px;
+        gap: 25px;
+    }
+
+    .card {
+        width: 100%;
+        max-width: 420px;
+        margin: 0 auto;
+    }
+
+    .card img {
+        width: 100%;
+        height: auto;
+    }
+
+    .card-content {
+        padding: 24px;
+    }
+
+    .card-content h3 {
+        font-size: 22px;
+    }
+
+    .card-content p {
+        font-size: 15px;
+        line-height: 1.6;
+    }
+}
