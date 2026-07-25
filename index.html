@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Vega Automation</title>
+
+
+<link rel="stylesheet" href="CSS/style.css">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+
+</head>
+
+<body>
+
+    <div class="top-bar">
+        
+    </div>
+
+    <header class="header">
+        <img src="images/LOGO011.png" class="logo" alt="Vega Automation Logo">
+
+        <nav class="menu">
+            <a href="index.html">HOME</a>
+            <a href="about.html">ABOUT US</a>
+            <a href="services.html">SERVICES</a>
+            <a href="projects.html">PROJECTS</a>
+            <a href="contact.html">CONTACT US</a>
+            <a href="#" class="quote-top" id="openQuote">REQUEST A QUOTE</a>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="hero-image">
+            <img src="images/Hero3.png" alt="Vega Automation Machine">
+        </div>
+
+        <div class="hero-box">
+            <h1>Custom <span>Automation</span> Solutions</h1>
+            <p>
+                Custom automation systems, precision machining, and mechanical design built
+                to improve productivity, quality, and long-term reliability.
+            </p>
+
+        
+        </div>
+    </section>
+
+<section class="video-section">
+     
+    <div class="video-content">
+
+         <h2>Automation in <span>Action</span></h2>
+
+         <div class="video-line"></div>
+    
+         <video autoplay muted loop playsinline>
+            <source src="videos/Video3.mp4" type="video/mp4">
+         </video>
+
+      </div>
+
+    </section>
+
+    <section class="cards">
+        <div class="card">
+            <img src="images/Auto20.png" class="automation-img" alt="Automation">
+            <div class="card-content">
+                <div class="icon">⚙</div>
+                <h3>Automation</h3>
+                <p>Custom automation equipment, machine integration, motion control and PLC programming.</p>
+                <a href="automation.html" class="learn">LEARN MORE →</a>
+                
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/M01.png" class="desing-img" alt="Design and Machining">
+            <div class="card-content">
+                <div class="icon">⌁</div>
+                <h3>Design & Machining</h3>
+                <p>Mechanical design, 3D modeling, CNC programming and precision machining for custom parts.</p>
+                <a href="design-machining.html" class="learn">LEARN MORE →</a>
+            </div>
+        </div>
+
+        <div class="card">
+            <img src="images/Prototyping2.png" class="prototype-img" alt="Prototyping">
+            <div class="card-content">
+                <div class="icon">▣</div>
+                <h3>Prototyping</h3>
+                <p>Low cost development, 3D printing, testing and functional prototypes for new ideas.</p>
+                <a href="prototyping.html" class="learn">LEARN MORE →</a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--
+    <div class="bottom-bar">
+        <div><span>✓</span> High Quality Materials</div>
+        <div><span>✓</span> Precision Engineering</div>
+        <div><span>✓</span> On-Time Delivery</div>
+    </div>
+    -->
+
+    <footer class="footer">
+
+    <div class="footer-container">
+
+        <div class="footer-contact">
+
+            <img src="images/LOGO011.png" class="footer-logo" alt="Vega Automation">
+
+            <i class="fa-solid fa-location-dot"></i> 336 S Waterman Ave<br> San Bernardino, CA 92408</span>
+
+            <span>|</span>
+
+            <i class="fa-solid fa-phone"></i> (213) 900-9449
+
+            <span>|</span>
+
+            <i class="fa-solid fa-envelope"></i>  info@vegaautomation.us
+
+        </div>
+
+    </div>
+
+    <div class="footer-bottom">
+
+       <p> © 2026 Vega Automation. All Rights Reserved.
+
+    </div>
+
+</footer>
+
+
+<div id="quoteModal" class="quote-modal">
+
+    <div class="quote-box">
+
+        <button
+            type="button"
+            id="closeQuote"
+            class="quote-close"
+            aria-label="Close">
+            &times;
+        </button>
+
+        <div class="quote-heading">
+
+            <span>START A PROJECT</span>
+
+            <h2>Send Us a Message</h2>
+
+            <p>
+                Complete the form below and we will contact you
+                as soon as possible.
+            </p>
+
+        </div>
+
+        <form class="quote-form">
+
+            <div class="quote-grid">
+
+                <div class="quote-field">
+                    <label for="quoteName">Full Name *</label>
+
+                    <input
+                        type="text"
+                        id="quoteName"
+                        name="name"
+                        placeholder="Your name"
+                        required>
+                </div>
+
+                <div class="quote-field">
+                    <label for="quoteCompany">Company</label>
+
+                    <input
+                        type="text"
+                        id="quoteCompany"
+                        name="company"
+                        placeholder="Company name">
+                </div>
+
+                <div class="quote-field">
+                    <label for="quoteEmail">Email Address *</label>
+
+                    <input
+                        type="email"
+                        id="quoteEmail"
+                        name="email"
+                        placeholder="name@company.com"
+                        required>
+                </div>
+
+                <div class="quote-field">
+                    <label for="quotePhone">Phone Number</label>
+
+                    <input
+                        type="tel"
+                        id="quotePhone"
+                        name="phone"
+                        placeholder="(000) 000-0000">
+                </div>
+
+            </div>
+
+            <div class="quote-field">
+
+                <label for="quoteService">Service Needed</label>
+
+                <select id="quoteService" name="service">
+
+                    <option value="">Select a service</option>
+
+                    <option value="Automation">
+                        Automation
+                    </option>
+
+                    <option value="Design and Machining">
+                        Design &amp; Machining
+                    </option>
+
+                    <option value="Prototyping">
+                        Prototyping
+                    </option>
+
+                </select>
+
+            </div>
+
+            <div class="quote-field">
+
+                <label for="quoteDetails">Project Details *</label>
+
+                <textarea
+                    id="quoteDetails"
+                    name="details"
+                    placeholder="Tell us about your project, requirements or application..."
+                    required></textarea>
+
+            </div>
+
+            <button type="submit" class="quote-send">
+
+                SEND MESSAGE
+
+                <span aria-hidden="true">→</span>
+
+            </button>
+
+        </form>
+
+    </div>
+
+</div>
+
+
+
+<script src="script.js"></script>
+
+
+
+</body>
+</html>
