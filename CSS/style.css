@@ -2346,3 +2346,44 @@
         line-height: 1.6;
     }
 }
+
+
+/* HEADER - MOBILE */
+@media (max-width: 650px) {
+
+    .header {
+        height: auto;
+        padding: 16px 14px;
+        flex-direction: column;
+        justify-content: center;
+        gap: 14px;
+    }
+
+    .logo {
+        width: 165px;
+    }
+
+    .menu {
+        width: 100%;
+        left: 0;
+        top: 0;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 12px 18px;
+    }
+
+    .menu a {
+        font-size: 12px;
+        padding-bottom: 0;
+    }
+
+    .menu a.active {
+        padding-bottom: 3px;
+    }
+
+    .quote-top {
+        width: auto;
+        margin-top: 4px;
+        padding: 12px 24px;
+    }
+}
