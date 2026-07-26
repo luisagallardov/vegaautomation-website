@@ -2470,11 +2470,16 @@
 }
 
 .services-card .learn-more {
-    font-size: 8px !important;
-    padding: 6px 3px !important;
-    width: 80% !important;
+    font-size: 7px !important;
+    padding: 5px 2px !important;
+    width: 70% !important;
     margin-left: auto !important;
     margin-right: auto !important;
+}
+
+.services-card .learn-more i {
+    font-size: 9px !important;
+
 }
 
     /* FOOTER MOBILE - SOLO COPYRIGHT */
