@@ -2414,6 +2414,9 @@
     text-align: center !important;
     box-sizing: border-box;
     align-self: flex-start;
+    position: relative !important;
+    top: 0 !important;
+    right: 0 !important;
     }
 }
 
