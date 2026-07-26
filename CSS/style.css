@@ -2412,3 +2412,15 @@
         padding: 12px 24px !important;
     }
 }
+
+@media (max-width: 650px) {
+
+    .header .menu {
+        display: none !important;
+    }
+
+    .header .menu.open {
+        display: flex !important;
+    }
+
+}
