@@ -2406,6 +2406,21 @@
         margin-top: auto !important;
     }
 
+.services-cards-section {
+    padding: 20px 12px 30px !important;
+}
+
+.services-cards-grid {
+    display: grid !important;
+    grid-template-columns: repeat(3, minmax(0, 1fr)) !important;
+    gap: 10px !important;
+    width: 100% !important;
+}
+
+.services-card {
+    min-width: 0 !important;
+    width: 100% !important;
+}
 
     /* FOOTER MOBILE - SOLO COPYRIGHT */
 
