@@ -2371,7 +2371,7 @@
 
     .card img {
         width: 100% !important;
-        height: 150px !important;
+        height: 110px !important;
         object-fit: contain !important;
         display: block !important;
     }
