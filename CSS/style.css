@@ -2366,8 +2366,10 @@
     }
 
     .card img {
-        width: 100%;
-        height: auto;
+        width: 100% !important;
+        height: 145px !important;
+        object-fit: contain !important;
+        display: block !important;
     }
 
     .card-content {
