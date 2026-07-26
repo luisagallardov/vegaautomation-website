@@ -2368,13 +2368,13 @@
 
     .card img {
         width: 100% !important;
-        height: 145px !important;
+        height: 115px !important;
         object-fit: contain !important;
         display: block !important;
     }
 
     .card-content {
-        padding: 10px !important;
+        padding: 8px !important;
     }
 
     .card-content h3 {
@@ -2385,8 +2385,8 @@
 
     .card-content p {
         font-size: 10px !important;
-        line-height: 1.35 !important;
-        margin-bottom: 12px !important;
+        line-height: 1.25 !important;
+        margin-bottom: 8px !important;
     }
 
     .learn {
