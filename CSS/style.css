@@ -2374,6 +2374,7 @@
 
     .card-content {
         padding: 10px !important;
+        flex: 0 0 auto !important;
     }
 
     .card-content h3 {
