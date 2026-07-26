@@ -2352,7 +2352,7 @@
         flex-direction: row !important;
         flex-wrap: nowrap !important;
         display: flex !important;
-        align-items: flex-start !important;
+        align-items: stretch !important;
         padding: 5px 12px 15px;
         gap: 12px;
     }
@@ -2362,8 +2362,11 @@
         max-width: none !important;
         flex: 0 0 calc((100% - 24px) / 3) !important;
         margin: 0 !important;
+
         min-height: 0 !important;
         height: auto !important;
+        display: flex !important;
+        flex-direction: column !important;
     }
 
     .card img {
@@ -2375,6 +2378,9 @@
 
     .card-content {
         padding: 8px !important;
+        display: flex !important;
+        flex-direction: column !important;
+        flex: 1 !important;
     }
 
     .card-content h3 {
@@ -2395,7 +2401,7 @@
         width: 100% !important;
         box-sizing: border-box !important;
         text-align: center !important;
-        margin-top: 8px !important;
+        margin-top: auto !important;
     }
 
 }
