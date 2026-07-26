@@ -2374,7 +2374,7 @@
         height: 110px !important;
         object-fit: contain !important;
         display: block !important;
-        transform: scale(1.50);
+        transform: scale(1.2);
     }
 
     .card-content {
