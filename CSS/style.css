@@ -2353,7 +2353,7 @@
         flex-wrap: nowrap !important;
         display: flex !important;
         align-items: flex-start !important;
-        padding: 25px 12px 45px;
+        padding: 5px 12px 45px;
         gap: 12px;
     }
 
