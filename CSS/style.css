@@ -2352,6 +2352,7 @@
         flex-direction: row !important;
         flex-wrap: nowrap !important;
         display: flex !important;
+        align-items: flex-start !important;
         padding: 25px 12px 45px;
         gap: 12px;
     }
@@ -2374,7 +2375,6 @@
 
     .card-content {
         padding: 10px !important;
-        flex: 0 0 auto !important;
     }
 
     .card-content h3 {
