@@ -2349,15 +2349,15 @@
     }
 
     .cards {
-        flex-direction: column;
-        padding: 25px 20px 45px;
-        gap: 25px;
+        flex-direction: row;
+        padding: 25px 12px 45px;
+        gap: 12px;
     }
 
     .card {
-        width: 100%;
-        max-width: 420px;
-        margin: 0 auto;
+        width: 33.333%;
+        max-width: none;
+        margin: 0;
     }
 
     .card img {
