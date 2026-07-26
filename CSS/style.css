@@ -2508,7 +2508,7 @@
 .about-section {
     padding-top: 0 !important;
     margin-top: 0 !important;
-
+}
 .about-container {
     display: flex !important;
     flex-direction: column !important;
@@ -2638,5 +2638,4 @@
         display: flex !important;
     }
 
-}
 }
