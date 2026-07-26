@@ -2404,6 +2404,35 @@
         margin-top: auto !important;
     }
 
+
+    /* FOOTER MOBILE - SOLO COPYRIGHT */
+
+.footer {
+    padding: 22px 15px !important;
+}
+
+.footer-logo,
+.footer-contact {
+    display: none !important;
+}
+
+.footer-bottom {
+    margin-top: 0 !important;
+    padding-top: 0 !important;
+    border-top: none !important;
+}
+
+.footer-bottom::before {
+    display: none !important;
+}
+
+.footer-bottom p {
+    margin: 0 !important;
+    font-size: 13px !important;
+    line-height: 1.4 !important;
+    text-align: center !important;
+}
+
 }
 
 /* MOBILE HAMBURGER MENU */
