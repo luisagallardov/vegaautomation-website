@@ -2422,6 +2422,60 @@
     width: 100% !important;
 }
 
+
+.services-card-image {
+    height: 120px !important;
+}
+
+.services-card-content {
+    padding: 12px 10px 14px !important;
+}
+
+.services-card-heading {
+    gap: 6px !important;
+}
+
+.services-card-heading > i {
+    font-size: 22px !important;
+}
+
+.services-card-heading h2 {
+    font-size: 13px !important;
+    line-height: 1.1 !important;
+}
+
+.services-title-line {
+    width: 30px !important;
+    height: 2px !important;
+    margin: 8px 0 10px !important;
+}
+
+.services-description {
+    font-size: 10px !important;
+    line-height: 1.35 !important;
+}
+
+.services-list {
+    font-size: 9px !important;
+    line-height: 1.25 !important;
+}
+
+.services-list li {
+    gap: 5px !important;
+    margin-bottom: 6px !important;
+}
+
+.services-list i {
+    font-size: 11px !important;
+}
+
+.services-card .learn-more {
+    font-size: 10px !important;
+    padding: 9px 6px !important;
+    width: 100% !important;
+    box-sizing: border-box !important;
+}
+
     /* FOOTER MOBILE - SOLO COPYRIGHT */
 
 .footer {
