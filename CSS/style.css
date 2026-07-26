@@ -2265,34 +2265,41 @@
     }
 
     .hero {
-    display: grid;
-    grid-template-columns: 58% 42%;
-    align-items: center;
-    padding: 8px 8px 20px;
-    gap: 0;
+    display: grid !important;
+    grid-template-columns: 55% 45% !important;
+    align-items: center !important;
+    column-gap: 0 !important;
+
+    padding: 0 8px 10px !important;
+    margin: 0 !important;
+
     min-height: 0 !important;
-    height: auto !important;
+    height: 430px !important;
+    }
 }
 
 .hero-image {
-    width: 100%;
-    max-width: 100%;
-    margin: 0;
+    width: 100% !important;
+    height: 100% !important;
+    display: flex !important;
+    align-items: center !important;
+    justify-content: flex-start !important;
+    overflow: visible !important;
 }
 
 .hero-image img {
-    width: 145%;
-    height: auto;
-    display: block;
-    transform: translateX(-12%);
+    width: 155% !important;
+    max-width: none !important;
+    height: auto !important;
+    transform: translateX(-18%) !important;
 }
 
 .hero-box {
-    width: 92%;
-    max-width: 92%;
-    margin: 0 0 0 auto;
-    padding: 16px 12px;
-    box-sizing: border-box;
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 18px 14px !important;
+    box-sizing: border-box !important;
 }
 
 .hero-box h1 {
