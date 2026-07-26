@@ -2432,15 +2432,15 @@
 }
 
 .services-card-heading {
-    gap: 6px !important;
+    gap: 4px !important;
 }
 
 .services-card-heading > i {
-    font-size: 22px !important;
+    font-size: 17px !important;
 }
 
 .services-card-heading h2 {
-    font-size: 13px !important;
+    font-size: 10px !important;
     line-height: 1.1 !important;
 }
 
@@ -2456,7 +2456,7 @@
 }
 
 .services-list {
-    font-size: 9px !important;
+    font-size: 7px !important;
     line-height: 1.25 !important;
 }
 
@@ -2466,12 +2466,12 @@
 }
 
 .services-list i {
-    font-size: 11px !important;
+    font-size: 9px !important;
 }
 
 .services-card .learn-more {
-    font-size: 10px !important;
-    padding: 9px 6px !important;
+    font-size: 8px !important;
+    padding: 7px 4px !important;
     width: 100% !important;
     box-sizing: border-box !important;
 }
