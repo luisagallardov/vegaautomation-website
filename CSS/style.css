@@ -2435,6 +2435,47 @@
     text-align: center !important;
 }
 
+.about-container {
+    display: flex !important;
+    flex-direction: column !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    padding: 25px 20px !important;
+    box-sizing: border-box !important;
+}
+
+.about-text {
+    width: 100% !important;
+    max-width: 100% !important;
+}
+
+.about-text h2 {
+    width: 100% !important;
+    max-width: 100% !important;
+    font-size: 34px !important;
+    line-height: 1.08 !important;
+}
+
+.about-text p {
+    width: 100% !important;
+    max-width: 100% !important;
+    font-size: 16px !important;
+    line-height: 1.6 !important;
+}
+
+.about-image {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-top: 25px !important;
+}
+
+.about-image img {
+    width: 100% !important;
+    height: auto !important;
+    display: block !important;
+    object-fit: contain !important;
+}
+
 }
 
 /* MOBILE HAMBURGER MENU */
