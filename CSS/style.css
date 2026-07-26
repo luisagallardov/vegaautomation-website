@@ -2395,6 +2395,7 @@
         width: 100% !important;
         box-sizing: border-box !important;
         text-align: center !important;
+        margin-top: 8px !important;
     }
 
 }
