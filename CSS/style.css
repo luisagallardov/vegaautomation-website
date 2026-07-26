@@ -2265,52 +2265,67 @@
     }
 
     .hero {
-    display: grid !important;
-    grid-template-columns: 55% 45% !important;
+    display: flex !important;
+    flex-direction: row !important;
     align-items: center !important;
-    column-gap: 0 !important;
+    justify-content: space-between !important;
 
-    padding: 0 8px 10px !important;
-    margin: 0 !important;
-
+    height: auto !important;
     min-height: 0 !important;
-    height: 430px !important;
-    }
+
+    padding: 20px 12px 25px !important;
+    gap: 10px !important;
+
+    overflow: hidden !important;
 }
 
 .hero-image {
-    width: 100% !important;
-    height: 100% !important;
-    display: flex !important;
-    align-items: center !important;
-    justify-content: flex-start !important;
-    overflow: visible !important;
+    width: 55% !important;
+
+    position: static !important;
+    left: auto !important;
+    top: auto !important;
+
+    margin: 0 !important;
 }
 
 .hero-image img {
-    width: 155% !important;
+    width: 115% !important;
     max-width: none !important;
+
     height: auto !important;
-    transform: translateX(-18%) !important;
+
+    object-fit: contain !important;
+    object-position: center !important;
+
+    display: block !important;
+    transform: translateX(-10%) !important;
 }
 
 .hero-box {
-    width: 100% !important;
-    max-width: none !important;
+    width: 45% !important;
+    max-width: 45% !important;
+
+    position: static !important;
+    top: auto !important;
+
     margin: 0 !important;
     padding: 18px 14px !important;
+
     box-sizing: border-box !important;
 }
 
 .hero-box h1 {
-    font-size: 24px;
-    line-height: 1.05;
+    font-size: 25px !important;
+    line-height: 1.05 !important;
+    margin-bottom: 14px !important;
 }
 
-    .hero-box p {
-        font-size: 16px;
-        line-height: 1.6;
-    }
+.hero-box p {
+    font-size: 13px !important;
+    line-height: 1.45 !important;
+    margin-bottom: 0 !important;
+}
 
     .video-section {
         padding: 35px 20px;
