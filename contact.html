@@ -19,18 +19,23 @@
     <div class="top-bar"></div>
 
     <header class="header">
+
+ <button class="menu-toggle" id="menuToggle" aria-label="Open menu">
+        ☰
+        </button>
+
         <a href="index.html">
             <img src="images/LOGO011.png"
                  class="logo"
                  alt="Vega Automation Logo">
         </a>
 
-        <nav class="menu">
+        <nav class="menu" id="mobileMenu">
             <a href="index.html">HOME</a>
             <a href="about.html">ABOUT US</a>
             <a href="services.html">SERVICES</a>
             <a href="projects.html">PROJECTS</a>
-            <a href="contact.html" class="active-page">CONTACT US</a>
+            <a href="contact.html" class="services-active">CONTACT US</a>
             <a class="quote-top quote-placeholder" aria-hidden="true">
                 REQUEST A QUOTE
             </a>
@@ -269,6 +274,8 @@
         </div>
 
     </footer>
+
+    <script src="script.js"></script>
 
 </body>
 
