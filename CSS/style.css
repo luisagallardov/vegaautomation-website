@@ -2290,7 +2290,7 @@
 }
 
 .hero-image img {
-    width: 115% !important;
+    width: 145% !important;
     max-width: none !important;
 
     height: auto !important;
@@ -2299,7 +2299,7 @@
     object-position: center !important;
 
     display: block !important;
-    transform: translateX(-10%) !important;
+    transform: translateX(-12%) !important;
 }
 
 .hero-box {
@@ -2310,25 +2310,25 @@
     top: auto !important;
 
     margin: 0 !important;
-    padding: 18px 14px !important;
+    padding: 14px 12px !important;
 
     box-sizing: border-box !important;
 }
 
 .hero-box h1 {
-    font-size: 25px !important;
+    font-size: 21px !important;
     line-height: 1.05 !important;
-    margin-bottom: 14px !important;
+    margin-bottom: 10px !important;
 }
 
 .hero-box p {
-    font-size: 13px !important;
-    line-height: 1.45 !important;
+    font-size: 11px !important;
+    line-height: 1.4 !important;
     margin-bottom: 0 !important;
 }
 
     .video-section {
-        padding: 35px 20px;
+        padding: 20px 20px 35px;
     }
 
     .video-content {
