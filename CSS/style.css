@@ -2469,16 +2469,18 @@
     font-size: 9px !important;
 }
 
-.services-card .learn-more {
-    font-size: 7px !important;
-    padding: 5px 2px !important;
-    width: 40% !important;
+.services-card .services-button {
+    font-size: 10px !important;
+    padding: 7px 10px !important;
+    width: 65% !important;
+    min-width: 0 !important;
+    box-sizing: border-box !important;
     margin-left: auto !important;
     margin-right: auto !important;
 }
 
-.services-card .learn-more i {
-    font-size: 9px !important;
+.services-card .services-button i {
+    font-size: 12px !important;
 
 }
 
