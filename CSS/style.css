@@ -2470,13 +2470,14 @@
 }
 
 .services-card .services-button {
-    font-size: 10px !important;
-    padding: 7px 10px !important;
-    width: 65% !important;
+    font-size: 9px !important;
+    padding: 7px 5px !important;
+    width: 90% !important;
     min-width: 0 !important;
     box-sizing: border-box !important;
     margin-left: auto !important;
     margin-right: auto !important;
+    border-radius: 7px !important;
 }
 
 .services-card .services-button i {
