@@ -1919,11 +1919,11 @@
     }
 
     .services-intro-content {
-        gap: 25px;
+        gap: 10px;
     }
 
     .services-intro-text h1 {
-        font-size: 26px;
+        font-size: 32px;
     }
 
     .services-intro-text p {
@@ -1931,7 +1931,7 @@
     }
 
     .services-intro-image {
-        height: 500px;
+        height: 300px;
     }
 
     .services-cards-section {
