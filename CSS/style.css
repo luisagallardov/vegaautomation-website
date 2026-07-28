@@ -1700,13 +1700,13 @@
 ================================================== */
 
 .services-cards-section {
-    padding: 65px 25px 65px;
+    padding: 45px 25px 65px;
     background: #f6f7f8;
 }
 
 .services-cards-grid {
     width: 100%;
-    max-width: 1220x;
+    max-width: 1350x;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
