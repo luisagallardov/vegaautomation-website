@@ -1928,9 +1928,12 @@
      .mobile-page-title {
         display: block !important;
         color: white;
-        font-size: 24px;
+        background: #0f607c;
+        font-size: 20px;
         font-weight: 700;
         letter-spacing: 1px;
+        padding: 9px 20px;
+        border-radius: 22px;
     }
 
     .services-intro {
