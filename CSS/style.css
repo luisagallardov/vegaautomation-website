@@ -1919,7 +1919,7 @@
     }
 
     .services-intro-content {
-        gap: 10px;
+        gap: 0;
     }
 
     .services-intro-text h1 {
@@ -2486,7 +2486,7 @@
 }
 
 .services-cards-section {
-    padding-top: 20px !important;
+    padding-top: 25px !important;
     padding-bottom: 20px !important;
 
 }
