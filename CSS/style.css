@@ -184,7 +184,7 @@
             display: grid;
             grid-template-columns: repeat(3, 1fr);
             gap: 70px;
-            padding: 10px 70px 50px;
+            padding: 50px 70px 30px;
         }
 
         .card {
