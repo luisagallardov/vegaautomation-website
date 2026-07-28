@@ -1908,11 +1908,30 @@
 }
 
 
+
+.mobile-page-title {
+    display: none;
+     
+}
+
+
 /* ==================================================
    MOBILE
 ================================================== */
 
 @media (max-width: 650px) {
+
+    .desktop-logo-link {
+        display: none !important;
+    }
+
+     .mobile-page-title {
+        display: block !important;
+        color: white;
+        font-size: 24px;
+        font-weight: 700;
+        letter-spacing: 1px;
+    }
 
     .services-intro {
         padding: 45px 20px 30px;
