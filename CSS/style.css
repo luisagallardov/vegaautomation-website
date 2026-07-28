@@ -2430,7 +2430,8 @@
     .learn {
         font-size: 10px !important;
         padding: 8px 6px !important;
-        width: 100% !important;
+        width: fit-content !important;
+        padding: 12px 28px !important;
         box-sizing: border-box !important;
         text-align: center !important;
         margin-top: auto !important;
@@ -2443,7 +2444,7 @@
 .services-cards-grid {
     display: grid !important;
     grid-template-columns: 1fr !important;
-    gap: 10px !important;
+    gap: 18px !important;
     width: 100% !important;
 }
 
@@ -2454,7 +2455,7 @@
 
 
 .services-card-image {
-    height: 120px !important;
+    height: 180px !important;
 }
 
 .services-card-content {
