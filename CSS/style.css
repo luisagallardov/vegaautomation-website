@@ -1706,11 +1706,11 @@
 
 .services-cards-grid {
     width: 100%;
-    max-width: 1275x;
+    max-width: 1255x;
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 55px;
+    gap: 45px;
     align-items: stretch;
 }
 
