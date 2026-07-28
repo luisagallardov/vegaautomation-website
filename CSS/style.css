@@ -2450,7 +2450,6 @@
 .services-card {
     min-width: 0 !important;
     width: 100% !important;
-    min-height: 620px !important;
 }
 
 
@@ -2460,9 +2459,6 @@
 
 .services-card-content {
     padding: 12px 10px 14px !important;
-    flex: 1 !important;
-    display: flex !important;
-    flex-direction: column !important;
 }
 
 .services-card-heading {
