@@ -1916,7 +1916,7 @@
 
 
 /* ==================================================
-   MOBILE
+   MOBILE CARDS - SERVICES PAGE
 ================================================== */
 
 @media (max-width: 650px) {
@@ -1970,6 +1970,7 @@
 
     .services-card {
         display: flex;
+        min-height: 460px;
     }
 
     .services-card-image {
