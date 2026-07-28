@@ -1700,7 +1700,7 @@
 ================================================== */
 
 .services-cards-section {
-    padding: 55px 25px 60px;
+    padding: 65px 25px 60px;
     background: #f6f7f8;
 }
 
@@ -1710,7 +1710,7 @@
     margin: 0 auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 55px;
+    gap: 65px;
     align-items: stretch;
 }
 
