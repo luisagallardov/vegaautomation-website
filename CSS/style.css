@@ -2298,9 +2298,9 @@
 
     .hero {
     display: flex !important;
-    flex-direction: row !important;
+    flex-direction: column !important;
     align-items: center !important;
-    justify-content: space-between !important;
+    justify-content: flex-start !important;
 
     height: auto !important;
     min-height: 0 !important;
@@ -2312,7 +2312,8 @@
 }
 
 .hero-image {
-    width: 55% !important;
+    order: 2 !important;
+    width: 100% !important;
 
     position: static !important;
     left: auto !important;
@@ -2322,7 +2323,7 @@
 }
 
 .hero-image img {
-    width: 145% !important;
+    width: 115% !important;
     max-width: none !important;
 
     height: auto !important;
@@ -2331,18 +2332,19 @@
     object-position: center !important;
 
     display: block !important;
-    transform: translateX(-12%) !important;
+    transform: none !important;
 }
 
 .hero-box {
-    width: 35% !important;
-    max-width: 35% !important;
+    order: 1 !important;
+    width: 90% !important;
+    max-width: 90% !important;
 
     position: static !important;
     top: auto !important;
 
     margin: 0 !important;
-    padding: 11px 10px !important;
+    padding: 18px 16px !important;
 
     box-sizing: border-box !important;
 }
