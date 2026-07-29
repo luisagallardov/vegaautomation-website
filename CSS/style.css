@@ -2474,6 +2474,8 @@
 .services-card {
     min-width: 0 !important;
     width: 100% !important;
+    height: auto !important;
+    min-height: 0 !important;
 }
 
 
@@ -2499,9 +2501,7 @@
 }
 
 .services-title-line {
-    width: 25px !important;
-    height: 2px !important;
-    margin: 6px 0 8px !important;
+    display: none !important;
 }
 
 .services-description {
