@@ -1982,6 +1982,7 @@
     
 .services-card-image img {
         object-fit: cover !important;
+        object-position: center !important;
     }
 
     .services-card-content {
