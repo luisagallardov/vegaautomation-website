@@ -2308,8 +2308,8 @@
     height: auto !important;
     min-height: 0 !important;
 
-    padding: 20px 12px 25px !important;
-    gap: 10px !important;
+    padding: 20px 12px 5px !important;
+    gap: 0 !important;
 
     overflow: hidden !important;
 }
@@ -2323,10 +2323,13 @@
     top: auto !important;
 
     margin: 0 !important;
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
 }
 
 .hero-image img {
-    width: 115% !important;
+    width: 108% !important;
     max-width: none !important;
 
     height: auto !important;
@@ -2336,6 +2339,7 @@
 
     display: block !important;
     transform: none !important;
+    margin: 0 auto !important;
 }
 
 .hero-box {
