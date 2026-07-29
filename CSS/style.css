@@ -1979,6 +1979,10 @@
         height: 360px;
         min-height: 0;
     }
+    
+.services-card-image img {
+        object-fit: cover !important;
+    }
 
     .services-card-content {
         padding: 26px 22px 28px;
