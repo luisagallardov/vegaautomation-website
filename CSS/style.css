@@ -1981,7 +1981,7 @@
     }
     
 .services-card-image img {
-        object-fit: contain !important;
+        object-fit: cover !important;
     }
 
     .services-card-content {
@@ -2485,8 +2485,8 @@
 }
 
 .services-card-heading h2 {
-    font-size: 9px !important;
-    line-height: 1.1 !important;
+    font-size: 13px !important;
+    line-height: 1.35 !important;
 }
 
 .services-title-line {
@@ -2496,8 +2496,8 @@
 }
 
 .services-description {
-    font-size: 10px !important;
-    line-height: 1.35 !important;
+    font-size: 12px !important;
+    line-height: 1.4 !important;
 }
 
 .services-list {
