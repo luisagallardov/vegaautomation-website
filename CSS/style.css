@@ -1973,14 +1973,22 @@
 
     .services-card {
         display: flex;
+        flex-direction: column;
+        height: auto !important;
+        min-height: 0 !important;
     }
 
     .services-card-image {
-        height: 360px;
-        min-height: 0;
+        height: 180px !important;
+        min-height: 180px !important;
+        max-height: 180px !important;
+        flex: 0 0 180px !important;
+        overflow: hidden !important;
     }
     
-.services-card-image img {
+    .services-card-image img {
+        width: 100% !important;
+        height: 100% !important;
         object-fit: cover !important;
         object-position: center !important;
     }
