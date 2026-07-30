@@ -123,6 +123,13 @@
             text-align: center;
         }
 
+        @media (min-width: 651px) {
+            .hero-box {
+                left: -40px;
+            }
+        }
+
+
         .hero-box h1 {
             font-size: 38px;
             margin: 0 0 10px;
