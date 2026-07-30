@@ -1777,9 +1777,10 @@
 
 .services-page .services-card-heading h2 {
     display: inline-block;
-    
-    color: #111;
-    
+    background: #111;
+    color: #ffffff;
+    padding: 10px 28px;
+    border-radius: 30px;
     font-size: 19px;
     line-height: 1.2;
     font-weight: bold;
