@@ -1782,10 +1782,7 @@
 }
 
 .services-title-line {
-    width: 38px;
-    height: 3px;
-    margin: 16px 0 22px;
-    background: #075de8;
+    display: none;
 }
 
 .services-description {
