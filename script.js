@@ -2,6 +2,7 @@
     const quoteModal = document.getElementById("quoteModal");
     const closeQuote = document.getElementById("closeQuote");
     const quoteForm = document.getElementById("quoteForm");
+    const quoteSuccess = document.getElementById("quoteSuccess");
 
     if (openQuote && quoteModal && closeQuote) {
 
@@ -43,9 +44,10 @@ if (quoteForm) {
             const result = await response.json();
 
             if (result.success) {
-                alert("Thank you! Your quote request has been sent.");
                 quoteForm.reset();
-                quoteModal.style.display = "none";
+                quoteForm.style.display = "none";
+                quoteSuccess.style.display = "block";
+            
             } else {
                 alert("Something went wrong. Please try again.");
             }
