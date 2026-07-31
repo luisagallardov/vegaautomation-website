@@ -322,11 +322,18 @@ contactForm.addEventListener("submit", async function(event) {
             contactForm.style.display = "none";
             formSuccess.style.display = "block";
 
+
+        if (window.innerWidth <= 768) {  
+            formSuccess.scrollIntoView({ 
+                behavior: "smooth",
+                block: "start"
+            }); 
+        } else {
             window.scrollTo({
                 top: 0,
                 behavior: "smooth"
         });
-
+    }
         } else {
             alert("Something went wrong. Please try again.");
         }
