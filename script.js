@@ -3,6 +3,7 @@
     const closeQuote = document.getElementById("closeQuote");
     const quoteForm = document.getElementById("quoteForm");
     const quoteSuccess = document.getElementById("quoteSuccess");
+    const quoteHeader = document.getElementById("quoteHeader");
 
     if (openQuote && quoteModal && closeQuote) {
 
@@ -45,6 +46,7 @@ if (quoteForm) {
 
             if (result.success) {
                 quoteForm.reset();
+                quoteHeader.style.display = "none";
                 quoteForm.style.display = "none";
                 quoteSuccess.style.display = "block";
             
