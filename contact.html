@@ -322,9 +322,9 @@ contactForm.addEventListener("submit", async function(event) {
             contactForm.style.display = "none";
             formSuccess.style.display = "block";
 
-            document.getElementById("contact-form").scrollIntoView({ 
-                behavior: "smooth",
-            block: "start"
+            window.scrollTo({
+                top: 0,
+                behavior: "smooth"
         });
 
         } else {
