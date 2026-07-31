@@ -1,6 +1,7 @@
     const openQuote = document.getElementById("openQuote");
     const quoteModal = document.getElementById("quoteModal");
     const closeQuote = document.getElementById("closeQuote");
+    const quoteForm = document.getElementById("quoteForm");
 
     if (openQuote && quoteModal && closeQuote) {
 
@@ -23,6 +24,33 @@
         if (event.key === "Escape") {
             quoteModal.style.display = "none";
             openQuote.blur();
+        }
+    });
+}
+
+if (quoteForm) {
+    quoteForm.addEventListener("submit", async function(event) {
+        event.preventDefault();
+
+        const formData = new FormData(quoteForm);
+
+        try {
+            const response = await fetch("https://api.web3forms.com/submit", {
+                method: "POST",
+                body: formData
+            });
+
+            const result = await response.json();
+
+            if (result.success) {
+                alert("Thank you! Your quote request has been sent.");
+                quoteForm.reset();
+                quoteModal.style.display = "none";
+            } else {
+                alert("Something went wrong. Please try again.");
+            }
+        } catch (error) {
+            alert("Something went wrong. Please try again.");
         }
     });
 }
