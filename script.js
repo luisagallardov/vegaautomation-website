@@ -35,3 +35,26 @@ if (menuToggle && mobileMenu) {
         mobileMenu.classList.toggle("open");
     });
 }
+
+const automationVideo = document.querySelector(".video-section video");
+
+const isIOS = /iPhone|iPad|iPod/i.test(navigator.userAgent);
+
+if (automationVideo && isIOS) {
+    automationVideo.loop = false;
+
+    function smoothVideoLoop() {
+        if (
+            !automationVideo.paused &&
+            automationVideo.duration &&
+            automationVideo.duration - automationVideo.currentTime < 0.10
+        ) {
+            automationVideo.currentTime = 0;
+            automationVideo.play().catch(() => {});
+        }
+
+        requestAnimationFrame(smoothVideoLoop);
+    }
+
+    automationVideo.addEventListener("play", smoothVideoLoop, { once: true });
+}
