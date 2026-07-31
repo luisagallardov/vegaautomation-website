@@ -321,6 +321,12 @@ contactForm.addEventListener("submit", async function(event) {
             formHeader.style.display = "none";
             contactForm.style.display = "none";
             formSuccess.style.display = "block";
+
+            document.getElementById("contact-form").scrollIntoView({ 
+                behavior: "smooth",
+            block: "start"
+        });
+
         } else {
             alert("Something went wrong. Please try again.");
         }
