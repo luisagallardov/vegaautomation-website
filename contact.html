@@ -125,6 +125,8 @@
             <!-- CONTACT FORM -->
             <div class="contact-form-card" id="contact-form">
 
+            <div id="formHeader">
+
                 <span class="contact-small-title">START A PROJECT</span>
 
                 <h2>Send Us a Message</h2>
@@ -133,7 +135,7 @@
                     Complete the form below and we will contact you as soon as
                     possible.
                 </p>
-
+             </div>
                 <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="post">
                     <input type="hidden" name="access_key" value="8405d3ef-b41d-4e51-9d81-6b8379d01852"> 
                     <input type="hidden" name="subject" value="Vega Automation Website Inquiry">
@@ -296,10 +298,11 @@
     </footer>
 
     <script src="script.js"></script>
-    
+
 <script>
 const contactForm = document.getElementById("contactForm");
 const formSuccess = document.getElementById("formSuccess");
+const formHeader = document.getElementById("formHeader");
 
 contactForm.addEventListener("submit", async function(event) {
     event.preventDefault();
@@ -315,6 +318,7 @@ contactForm.addEventListener("submit", async function(event) {
         const result = await response.json();
 
         if (result.success) {
+            formHeader.style.display = "none";
             contactForm.style.display = "none";
             formSuccess.style.display = "block";
         } else {
