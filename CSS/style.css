@@ -1779,8 +1779,8 @@
 .services-card-heading {
     display: flex;
     align-items: center;
-    justify-items: center;
-    gap: 18px;
+    justify-content: center;
+    gap: 10px;
 }
 
 .services-card-heading > i {
