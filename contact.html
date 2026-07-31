@@ -134,10 +134,10 @@
                     possible.
                 </p>
 
-                <form class="contact-form" action="https://api.web3forms.com/submit" method="post">
+                <form class="contact-form" id="contactForm" action="https://api.web3forms.com/submit" method="post">
                     <input type="hidden" name="access_key" value="8405d3ef-b41d-4e51-9d81-6b8379d01852"> 
                     <input type="hidden" name="subject" value="Vega Automation Website Inquiry">
-                    <input type="hidden" name="redirect" value="https://vegaautomation.us/thank-you.html">
+                    
 
                     <div class="form-row">
 
@@ -231,6 +231,23 @@
 
                 </form>
 
+<div id="formSuccess" style="display:none; text-align:center; padding:70px 20px;">
+
+    <div style="font-size:60px; color:#0b6680; margin-bottom:20px;">
+        <i class="fa-solid fa-circle-check"></i>
+    </div>
+
+    <span class="contact-small-title">MESSAGE SENT</span>
+
+    <h2>Thank You!</h2>
+
+    <p class="form-intro">
+        Your message has been sent successfully.
+        We'll review your request and get back to you as soon as possible.
+    </p>
+
+</div>
+
             </div>
 
         </div>
@@ -279,6 +296,39 @@
     </footer>
 
     <script src="script.js"></script>
+    
+<script>
+const contactForm = document.getElementById("contactForm");
+const formSuccess = document.getElementById("formSuccess");
+
+contactForm.addEventListener("submit", async function(event) {
+    event.preventDefault();
+
+    const formData = new FormData(contactForm);
+
+    try {
+        const response = await fetch("https://api.web3forms.com/submit", {
+            method: "POST",
+            body: formData
+        });
+
+        const result = await response.json();
+
+        if (result.success) {
+            contactForm.style.display = "none";
+            formSuccess.style.display = "block";
+        } else {
+            alert("Something went wrong. Please try again.");
+        }
+    } catch (error) {
+        alert("Something went wrong. Please try again.");
+    }
+});
+
+
+</script>
+
+
 
 </body>
 
