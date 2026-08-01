@@ -52,7 +52,7 @@ if (quoteForm) {
 
                 if (window.innerWidth <= 768) {  
             window.scrollTo({ 
-                top: quoteSuccess.offsetTop - 180,
+                top: quoteSuccess.offsetTop - 145,
                 behavior: "smooth"
             }); 
         }
