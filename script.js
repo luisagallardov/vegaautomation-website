@@ -49,6 +49,13 @@ if (quoteForm) {
                 quoteHeader.style.display = "none";
                 quoteForm.style.display = "none";
                 quoteSuccess.style.display = "block";
+
+                if (window.innerWidth <= 768) {  
+            window.scrollTo({ 
+                top: quoteSuccess.offsetTop - 180,
+                behavior: "smooth"
+            }); 
+        }
             
             } else {
                 alert("Something went wrong. Please try again.");
