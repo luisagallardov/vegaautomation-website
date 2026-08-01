@@ -324,9 +324,9 @@ contactForm.addEventListener("submit", async function(event) {
 
 
         if (window.innerWidth <= 768) {  
-            formSuccess.scrollIntoView({ 
-                behavior: "smooth",
-                block: "start"
+            window.scrollTo({ 
+                top: formSuccess.offsetTop - 200,
+                behavior: "smooth"
             }); 
         } else {
             window.scrollTo({
