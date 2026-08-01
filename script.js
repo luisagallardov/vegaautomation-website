@@ -4,6 +4,8 @@
     const quoteForm = document.getElementById("quoteForm");
     const quoteSuccess = document.getElementById("quoteSuccess");
     const quoteHeader = document.getElementById("quoteHeader");
+    const menuToggle = document.getElementById("menuToggle");
+    const mobileMenu = document.getElementById("mobileMenu");
 
     if (openQuote && quoteModal && closeQuote) {
 
@@ -50,6 +52,9 @@ if (quoteForm) {
                 quoteForm.style.display = "none";
                 quoteSuccess.style.display = "block";
 
+            if (mobileMenu) {
+                mobileMenu.classList.remove("open");
+            }
                 if (window.innerWidth <= 768) {  
             window.scrollTo({ 
                 top: quoteSuccess.offsetTop - 135,
@@ -66,8 +71,6 @@ if (quoteForm) {
     });
 }
 
-    const menuToggle = document.getElementById("menuToggle");
-const mobileMenu = document.getElementById("mobileMenu");
 
 if (menuToggle && mobileMenu) {
     menuToggle.addEventListener("click", () => {
