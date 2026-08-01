@@ -311,7 +311,7 @@
             &times;
         </button>
 
-        <div class="quote-heading">
+        <div class="quote-heading" id="quoteHeader">
 
             <span>START A PROJECT</span>
 
@@ -324,7 +324,9 @@
 
         </div>
 
-        <form class="quote-form">
+        <form class="quote-form" id="quoteForm" action="https://api.web3forms.com/submit" method="post">
+                    <input type="hidden" name="access_key" value="8405d3ef-b41d-4e51-9d81-6b8379d01852"> 
+                    <input type="hidden" name="subject" value="Vega Automation">
 
             <div class="quote-grid">
 
@@ -417,6 +419,21 @@
             </button>
 
         </form>
+
+        <div id="quoteSuccess" style="display:none; text-align:center; padding:15px 10px;">
+    <div style="font-size:60px; color:#0b6680; margin-bottom:20px;">
+        <i class="fa-solid fa-circle-check"></i>
+    </div>
+
+    <span class="contact-small-title">REQUEST SENT</span>
+
+    <h2>Thank You!</h2>
+
+    <p class="form-intro">
+        Your quote request has been sent successfully.
+        We'll review your request and get back to you as soon as possible.
+    </p>
+</div>
 
     </div>
 
