@@ -2967,6 +2967,13 @@
   text-align: center;
 }
 
+.value-item i {
+  display: block;
+  font-size: 34px;
+  margin-bottom: 14px;
+  color: #0E5A8A;
+}
+
 .value-item + .value-item {
   border-left: 1px solid #bdc1ca;
 }
