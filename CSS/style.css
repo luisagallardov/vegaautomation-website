@@ -1406,10 +1406,12 @@
     width: 100%;
     max-width: 1220px;
     margin: 0 auto;
-    display: grid;
-    grid-template-columns: 30% 70%;
-    gap: 42px;
-    align-items: start;
+    display: block;
+}
+
+.about-section-title {
+    margin-bottom: 38px;
+    text-align: center;
 }
 
 .about-process-intro > span {
