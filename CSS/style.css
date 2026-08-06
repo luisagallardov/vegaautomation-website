@@ -1398,13 +1398,13 @@
 ================================================== */
 
 .about-process {
-    padding: 52px 45px 62px;
+    padding: 52px 20px 62px;
     background: #fff;
 }
 
 .about-process-content {
     width: 100%;
-    max-width: 1220px;
+    max-width: 1450px;
     margin: 0 auto;
     display: block;
 }
@@ -1471,7 +1471,7 @@
     height: 39px;
     margin: 0 auto 20px;
     border-radius: 50%;
-    background: #096ac1;
+    background: #0E5A8A;
     color: #fff;
     display: flex;
     align-items: center;
@@ -1482,22 +1482,22 @@
 
 .about-process-step > i {
     min-height: 54px;
-    color: #086ec7;
+    color: #0E5A8A;
     font-size: 44px;
 }
 
 .about-process-step h3 {
     margin: 14px 0 14px;
     color: #111418;
-    font-size: 15px;
+    font-size: 20px;
     line-height: 1.4;
 }
 
 .about-process-step p {
     margin: 0 auto;
     color: #333;
-    font-size: 13px;
-    line-height: 1.55;
+    font-size: 16px;
+    line-height: 1.6;
 }
 
 
