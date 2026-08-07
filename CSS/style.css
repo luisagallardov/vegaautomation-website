@@ -3060,7 +3060,7 @@
 
 @media (max-width: 600px) {
   .about-main {
-    padding: 38px 14px 30px;
+    padding: 38px 4px 30px;
   }
 
   .about-intro {
@@ -3130,9 +3130,6 @@
     column-gap: 12px;
     row-gap: 47px;
     position: relative;
-
-    width: calc(100% + 20px);
-    margin-left: -10px;
   }
 
  .work-process::before,
