@@ -3127,20 +3127,37 @@
     position: relative;
   }
 
-  .work-process::before {
-    display: none;
-  }
-
-  .work-step:nth-child(1)::after,
-  .work-step:nth-child(3)::after {
+ .work-process::before,
+.work-process::after {
     content: "";
     position: absolute;
-    top: 20px;
-    left: calc(50% + 28px);
-    width: calc(100% + 42px - 56px);
-    border-top: 2px dashed #9299a6;
-    z-index: -1;
-  }
+    background: #d7d9df;
+    opacity: .6;
+    z-index: 0;
+}
+
+/* Línea vertical */
+.work-process::before {
+    width: 1px;
+    height: 82%;
+    top: 9%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+/* Línea horizontal */
+.work-process::after {
+    height: 1px;
+    width: 88%;
+    left: 6%;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+.work-step {
+    position: relative;
+    z-index: 1;
+}
 
   .step-number {
     margin-bottom: 18px;
