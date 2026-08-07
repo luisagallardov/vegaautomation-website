@@ -3065,6 +3065,7 @@
     margin-bottom: 38px;
     display: flex;
     flex-direction: column;
+    margin-top: -20px;
   }
 
   .about-intro__right {
@@ -3082,13 +3083,13 @@
   }
 
   .about-intro__left .about-lead {
-    font-size: 22px;
-    line-height: 1.6;
+    font-size: 20px;
+    line-height: 1.55;
   }
 
   .about-intro__left p {
-    font-size: 22px;
-    line-height: 1.6;
+    font-size: 20px;
+    line-height: 1.55;
   }
 
   .about-intro__right h1 {
