@@ -3101,9 +3101,7 @@
   }
 
   .about-intro__right h1 {
-    font-size: clamp(30px, 9.0vw, 42px);
-    line-height: 1;
-    letter-spacing: -1.6px;
+    display: none;
   }
 
   .about-title-line {
@@ -3111,8 +3109,7 @@
   }
 
   .about-intro__right p {
-    font-size: 20px;
-    line-height: 1.55;
+    display: none;
   }
 
   .about-section {
