@@ -3238,3 +3238,20 @@
 .about-section.no-border {
     border-top: none !important;
 }
+
+@media (min-width: 1001px) {
+    .services-page .services-card-image {
+        height: auto;    
+    }
+
+    .services-page .services-card-image img{
+        height: auto;
+    }
+}
+
+@media (min-width: 1001px) {
+    .services-page .services-card:nth-child(2) .services-card-image img,
+    .services-page .services-card:nth-child(3) .services-card-image img {
+        margin-top: -12px;
+        margin-bottom: -12px;
+    }
