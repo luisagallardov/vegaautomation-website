@@ -3063,6 +3063,20 @@
 
   .about-intro {
     margin-bottom: 38px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .about-intro__right {
+    order: 1;
+  }
+
+  .about-intro__divider {
+    order: 2;
+  }
+
+  .about-intro__left {
+    order: 3;
   }
 
   .about-intro__left .about-lead {
