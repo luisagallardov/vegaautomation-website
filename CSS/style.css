@@ -3121,8 +3121,25 @@
   }
 
   .work-process {
-    grid-template-columns: 1fr;
-    gap: 47px;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    column-gap: 42px;
+    row-gap: 47px;
+    position: relative;
+  }
+
+  .work-process::before {
+    display: none;
+  }
+
+  .work-step:nth-child(1)::after,
+  .work-step:nth-child(3)::after {
+    content: "";
+    position: absolute;
+    top: 20px;
+    left: calc(50% + 28px);
+    width: calc(100% + 42px - 56px);
+    border-top: 2px dashed #9299a6;
+    z-index: -1;
   }
 
   .step-number {
