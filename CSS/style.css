@@ -3181,3 +3181,7 @@
     stroke-width: 2.4;
   }
 }
+
+.about-section.no-border {
+    border-top: none !important;
+}
