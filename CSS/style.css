@@ -3065,11 +3065,12 @@
     margin-bottom: 38px;
     display: flex;
     flex-direction: column;
-    margin-top: -20px;
+    margin-top: -15px;
   }
 
   .about-intro__right {
     order: 1;
+    padding-left: 10px;
   }
 
   .about-intro__divider {
@@ -3078,8 +3079,8 @@
 
   .about-intro__left {
     order: 3;
-    padding-left: 6px;
-    padding-right: 6px;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
   .about-intro__left .about-lead {
