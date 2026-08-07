@@ -2846,7 +2846,7 @@
   width: 100%;
   max-width: none;
   margin: 0 auto;
-  padding: 24px 0 35px;
+  padding: 8px 0 35px;
   border-top: 1px solid var(--about-line);
   background: transparent;
 }
