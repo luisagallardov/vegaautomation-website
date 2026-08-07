@@ -1610,8 +1610,8 @@
     .about-process {
         padding-left: 20px;
         padding-right: 20px;
-        padding-bottom: 40px;
-        padding-top: 25px;
+        padding-bottom: 45px;
+        padding-top: 15px;
     }
 
     .about-company-image {
@@ -3072,7 +3072,7 @@
 
   .about-intro__right {
     order: 1;
-    padding-left: 15px;
+    padding-left: 20px;
   }
 
   .about-intro__right h1 {
@@ -3086,8 +3086,8 @@
 
   .about-intro__left {
     order: 3;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
   .about-intro__left .about-lead {
