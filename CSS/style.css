@@ -3077,8 +3077,8 @@
 
   .about-intro__left {
     order: 3;
-    padding-left: 3px;
-    padding-right: 3px;
+    padding-left: 6px;
+    padding-right: 6px;
   }
 
   .about-intro__left .about-lead {
@@ -3102,7 +3102,7 @@
   }
 
   .about-intro__right p {
-    font-size: 22px;
+    font-size: 18px;
     line-height: 1.6;
   }
 
