@@ -3071,10 +3071,12 @@
   .about-intro__right {
     order: 1;
     padding-left: 10px;
+    display: none;
   }
 
   .about-intro__divider {
     order: 2;
+    display: none;
   }
 
   .about-intro__left {
