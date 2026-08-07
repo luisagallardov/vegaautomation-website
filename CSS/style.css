@@ -3071,6 +3071,9 @@
   .about-intro__right {
     order: 1;
     padding-left: 10px;
+  }
+
+  .about-intro__right h1 {
     display: none;
   }
 
@@ -3106,8 +3109,8 @@
   }
 
   .about-intro__right p {
-    font-size: 18px;
-    line-height: 1.6;
+    font-size: 20px;
+    line-height: 1.55;
   }
 
   .about-section {
