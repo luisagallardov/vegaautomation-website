@@ -3105,7 +3105,7 @@
   }
 
   .about-title-line {
-    margin: 10px 0 15px;
+    display: none;
   }
 
   .about-intro__right p {
