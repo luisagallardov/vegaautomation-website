@@ -1642,6 +1642,11 @@
         margin-right: auto;
     }
 
+    .about-process-step {
+       padding-left: 0;
+       padding-right: 0;
+    }
+
     .about-process-steps {
         grid-template-columns: 1fr 1fr;
         gap: 35px 12px;
